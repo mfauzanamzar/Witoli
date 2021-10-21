@@ -32,7 +32,7 @@ const DetailWisata = () => {
             </div>
             <div className="detail__map">
                 <h1>Lokasi Wisata</h1>
-            <Map lat={post.location.lat} lon={post.location.lon}/>
+            <Map name={post.name} link={post.link} lat={post.location.lat} lon={post.location.lon}/>
             </div>
         </div>
         </>

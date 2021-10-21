@@ -10,7 +10,7 @@ const markerIcon = new L.Icon({
     iconSize: [20, 30]
 })
 
-const Map = ({lat, lon}) => { 
+const Map = ({lat, lon, name, link}) => { 
 
     const position = [lat, lon]
     return (
@@ -26,7 +26,8 @@ const Map = ({lat, lon}) => {
                 />
                 <Marker position={position} icon={markerIcon}>
                     <Popup>
-                        A pretty CSS3 popup. <br /> Easily customizable.
+                    <p>{name}</p>
+                    <a href={link}>Buka Map</a>
                     </Popup>
                 </Marker>
                

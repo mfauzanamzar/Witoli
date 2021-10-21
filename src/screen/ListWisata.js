@@ -33,7 +33,7 @@ const ListWisata = () => {
 
     return (
         <div className="listwisata">
-            <img className="banner__img" src="/img/Malangga.jpg" alt="tes" />
+            <img className="banner__img" src="/img/PantaiTaragusung.jpg" alt="tes" />
             <div className="listwisata__search">
                 <input type="text" placeholder="Search..." onChange={handleChange} />
                 <button type="submit" onClick={handleClick}><i class="fa fa-search"></i></button>
