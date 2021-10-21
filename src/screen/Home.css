@@ -1,0 +1,117 @@
+.home{
+    background-color: #F05A28;
+    height: 600px;  
+    position: relative;
+}
+
+.home__banner{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.banner__left{
+    flex: 0.5;
+    text-align: left;    
+    color: #fff;
+ 
+}
+
+.banner__left h1{
+    font-size: 64px;
+    margin: 0;
+    padding-top: 150px;
+    font-family: 'Kurale', serif;
+}
+
+.banner__left p {
+    width: 400px;
+}
+
+.banner__right{
+    position: relative;
+    flex: 0.5;
+}
+
+.banner__right img{
+    width: 500px;
+    position: absolute; 
+    bottom: -200px;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+}
+.map{
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+}
+
+.map__title{
+    margin-bottom: 30px;
+}
+
+.favorite{
+    text-align: center;
+}
+
+.favorite__title{
+    margin-top: 50px;
+}
+
+.favorite__subtitle{
+    margin-bottom: 30px;
+}
+
+.leaflet-container{
+    margin: auto;
+}
+
+
+.content__img{
+    width:600px;
+    margin-top: 100px; 
+
+}
+
+.content__btn{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn{
+    width: fit-content;
+    padding: 16px 25px;
+    font-size: 20px;
+    border-radius: 25px;
+ 
+}
+
+.btn1{
+    color: #F05A28;
+    background-color: #ffffff;
+}
+
+.btn2{
+    color: #ffffff;
+    background-color: #F05A28;
+
+}
+
+
+.text{
+    margin-left: 100px;
+    padding-left: 40px;
+    font-size: 90px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Architects Daughter', cursive;
+    border-left: 9px solid #ffffff;
+}
+

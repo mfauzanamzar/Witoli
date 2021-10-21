@@ -1,0 +1,39 @@
+.posts{
+    width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.posts__container{
+    width: 1300px;
+    margin: auto;
+    
+}
+
+.posts__card{
+    width: 350px;
+    height: 300px;
+    box-shadow: inset 0px -70px 30px -30px rgba(20, 19, 19, 0.9);
+}
+
+.card__name{
+    position: relative;
+    color: #fff;
+    bottom: 50px;
+}
+
+.posts__card img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    z-index: -2;
+    position: relative;
+    
+}
+
+.posts__post{
+    text-decoration: none;
+}

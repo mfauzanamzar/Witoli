@@ -1,0 +1,40 @@
+.containerNav{   
+    background-color: #F05A28 ;
+}
+
+.navigation{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto; 
+    align-items: center;
+    justify-content: space-between;  
+}
+
+
+.navigation__left{
+    width: 100px;
+    margin: 8px;
+}
+
+.right__menu{
+    display: flex;
+    gap: 20px;   
+    font-weight: 500;
+    
+}
+
+.menu{
+    list-style: none;  
+    padding: 5px 16px; 
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffffff;  
+}
+
+.menu:hover{
+    background-color: #F05A28;
+    cursor: pointer;
+    border-radius: 20px;
+}
