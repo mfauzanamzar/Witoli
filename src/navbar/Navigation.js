@@ -13,7 +13,6 @@ const Navigation = () => {
                     <ul className="right__menu">
                         <li className="menu"><a href="/">Home</a></li>
                         <li className="menu"><a href="/wisatas">Wisata</a></li>
-                        <li className="menu">About</li>
                     </ul>
                 </div>
             </div>

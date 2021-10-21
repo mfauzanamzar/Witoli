@@ -6,7 +6,6 @@ import { usePosts } from '../../custom-hooks/'
 
 export default function Posts() {
   const [posts, isLoading] = usePosts()
-  console.log(posts)
 
   const renderPosts = () => {
     if (isLoading) return <p>Loading...</p>

@@ -39,6 +39,11 @@
     background-color: #F05A28;
     color: #ffffff;
     border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.listwisata__item{
+    margin-bottom: 50px;
 }
 
 

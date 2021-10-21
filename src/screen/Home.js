@@ -1,6 +1,6 @@
 import React from 'react'
 import Posts from '../components/posts/Posts'
-import Map from '../components/Map'
+import Maps from '../components/Maps'
 import './Home.css'
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             <div className="map">
                 <div className="map__title"><h1>Lokasi Wisata Tolitoli</h1></div>
-                <Map />
+                <Maps />
             </div>
             <div className="favorite">
                 <h1 className="favorite__title">Wisata Favorit</h1>

@@ -10,9 +10,9 @@ const markerIcon = new L.Icon({
     iconSize: [20, 30]
 })
 
-const Map = () => { 
+const Map = ({lat, lon}) => { 
 
-    const position = [1, 120.784706]
+    const position = [lat, lon]
     return (
         <div>
             <MapContainer classname='map'
