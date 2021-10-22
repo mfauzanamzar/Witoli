@@ -1,9 +1,25 @@
 import React from 'react'
-import Posts from '../components/posts/Posts'
 import Maps from '../components/Maps'
 import './Home.css'
+import { Link } from 'react-router-dom'
+import { usePosts } from '../custom-hooks'
+
 
 const Home = () => {
+
+    const [posts, isLoading] = usePosts()
+    const top = posts.filter((val) => {
+        if (val.fields.id < 4){
+            return val
+        }
+    } )
+
+    console.log(top)
+
+    if(isLoading)return (
+        <p></p>
+    )
+
     return (
         <div>
             <div className="home">      
@@ -26,7 +42,26 @@ const Home = () => {
                 <h1 className="favorite__title font_t">Wisata Favorit</h1>
                 <p className="favorite__subtitle">3 Wisata terfavorit di Kabupaten Tolitoli 2021</p>
                 <div className="favorite__wisata">
-                    <Posts />
+                <div className="posts__container">
+                    <div className="posts">
+                        {top.map((val) => {
+                            return (
+                                <Link
+                                    className="posts__post"
+                                    key={val.fields.slug}
+                                    to={val.fields.slug}
+                                >
+                                    <div className="posts__card">
+                                        <img src={val.fields.image.fields.file.url} alt={val.fields.name} />
+                                        <h3 className="card__name">{val.fields.name}</h3>
+                                    </div>
+
+                                </Link>
+                            )
+                        })}
+                    </div>
+                </div>
+
                 </div>
             </div>
 

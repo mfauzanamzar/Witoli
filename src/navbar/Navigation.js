@@ -23,7 +23,7 @@ const Navigation = () => {
                 </div>
                 <div className="botNavbar__wisata">
                 <i class="fa fa-image"></i>
-                <a className="nodeco" href="wisatas">Wisata</a>
+                <a className="nodeco" href="/wisatas">Wisata</a>
                 </div>
             </div>
         </div>

@@ -1,5 +1,8 @@
 .footer{
     background-color: #F05A28;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
 }
 
 @media only screen and (max-device-width: 600px){

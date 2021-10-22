@@ -12,7 +12,7 @@ const DetailWisata = () => {
     console.log(post)
 
     if (isLoading) return (
-        <p>loading...</p>
+        <p></p>
     )
     return (
         <><div className="detail">

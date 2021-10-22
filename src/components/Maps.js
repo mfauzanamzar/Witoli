@@ -23,7 +23,7 @@ const Maps = () => {
         <div>
             <MapContainer classname='map'
                 center={[1.120796, 120.784706]}
-                zoom={10}
+                zoom={9}
             >
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
