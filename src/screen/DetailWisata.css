@@ -45,6 +45,12 @@
 }
 
 
+@media only screen and (max-device-width: 600px){
+    .detail__map{
+        margin-bottom: 100px;
+    }
+}
+
 @media only screen and (max-device-width: 900px){
     .detailwisata{
         flex-direction: column;

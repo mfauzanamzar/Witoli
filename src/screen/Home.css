@@ -194,6 +194,19 @@
        font-family: 'Kurale', serif;
    }
     
+   .home{
+       height: unset;
+   }
+
+   .home__banner{
+       padding: 20px 0;
+   }
+
+   .banner__left h1{
+       padding-top: 0;
+   }
+
+
     
 
 }

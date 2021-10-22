@@ -18,9 +18,11 @@ const Navigation = () => {
             </div>
             <div className="botNavbar">
                 <div className="botNavbar__home">
+                    <i class="fa fa-home"></i>
                     <a className="nodeco" href="/">Home</a>
                 </div>
                 <div className="botNavbar__wisata">
+                <i class="fa fa-image"></i>
                 <a className="nodeco" href="wisatas">Wisata</a>
                 </div>
             </div>
