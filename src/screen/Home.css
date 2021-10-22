@@ -5,7 +5,7 @@
 }
 
 .home__banner{
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
 }
@@ -40,6 +40,7 @@
 }
 
 .wave{
+  
     position: absolute;
     bottom: 0;
     left: 0;
@@ -54,6 +55,11 @@
 
 .map__title{
     margin-bottom: 30px;
+}
+
+.leaflet-container{
+    width: 800px;
+    height: 500px;
 }
 
 .favorite{    
@@ -114,5 +120,88 @@
     text-shadow: 2px 2px 4px #000000;
     font-family: 'Architects Daughter', cursive;
     border-left: 9px solid #ffffff;
+}
+
+@media only screen and (max-device-width: 1040px){
+    .banner__right img{
+        width: 80%;
+        position: relative; 
+        bottom: -100px;
+    }
+
+    .banner__left{
+        margin-left: 30px;
+    }
+
+    .banner__left h1{
+        font-size: 52px;
+    }
+    
+    .banner__left p {
+       
+    }
+
+    .wave{
+        display: none;
+    }
+
+    .home{
+       height: 400px;
+    }
+}
+
+@media only screen and (max-device-width: 900px){
+    .banner__right img{
+       
+    }
+
+    .leaflet-container{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-device-width: 720px){
+
+    .home__banner{
+        display: block;
+    }
+    .banner__right{
+        display: none;
+    }
+
+    .banner__left{
+        text-align: center;
+        margin: auto 10px;
+    }
+
+    .banner__left h1{
+        padding-top: 30px;
+    }
+
+    .banner__left p{
+        width: unset;
+    }
+    .home{
+        height: 180px;
+     }
+}
+
+@media only screen and (max-device-width: 600px){
+   .font_t{
+       margin-top: 20px;
+       font-size: 20px;
+       font-family: 'Kurale', serif;
+   }
+    
+    
+
+}
+
+@media only screen and (max-device-width: 520px){
+    .leaflet-container{
+        width: 250px;
+        height: 300px;
+    }
 }
 

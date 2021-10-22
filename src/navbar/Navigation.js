@@ -16,7 +16,16 @@ const Navigation = () => {
                     </ul>
                 </div>
             </div>
+            <div className="botNavbar">
+                <div className="botNavbar__home">
+                    <a className="nodeco" href="/">Home</a>
+                </div>
+                <div className="botNavbar__wisata">
+                <a className="nodeco" href="wisatas">Wisata</a>
+                </div>
+            </div>
         </div>
+       
     )
 }
 

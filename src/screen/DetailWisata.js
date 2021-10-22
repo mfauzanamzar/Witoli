@@ -24,9 +24,9 @@ const DetailWisata = () => {
                     </div>
                 </div>
                 <div className="detailwisata__right">
-                    <h2>Deskripsi</h2>
+                    <h2 className="font_t">Deskripsi</h2>
                     <p>{post.desc}</p>
-                    <h2>Rekomendasi Kendaraan</h2>
+                    <h2 className="font_t">Rekomendasi Kendaraan</h2>
                     <p>{post.vehicle}</p>
                 </div>
             </div>

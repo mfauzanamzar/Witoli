@@ -18,7 +18,6 @@ const Map = ({lat, lon, name, link}) => {
             <MapContainer classname='map'
                 center={position}
                 zoom={18}
-                style={{ height: 500, width: 800 }}
             >
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

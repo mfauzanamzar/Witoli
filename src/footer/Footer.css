@@ -1,3 +1,10 @@
 .footer{
     background-color: #F05A28;
 }
+
+@media only screen and (max-device-width: 600px){
+    .footer{
+        display: none;
+        
+    }
+}
