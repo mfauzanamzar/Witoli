@@ -40,6 +40,10 @@
     text-decoration: none;
 }
 
+.posts{
+    grid-gap: 30px;
+}
+
 @media only screen and (max-device-width: 1300px){
     .posts{
         grid-gap: 10px;
