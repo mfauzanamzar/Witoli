@@ -122,6 +122,11 @@
     border-left: 9px solid #ffffff;
 }
 
+.font_t{
+    margin-top: 20px;
+    font-family: 'Kurale', serif;
+}
+
 @media only screen and (max-device-width: 1040px){
     .banner__right img{
         width: 80%;
